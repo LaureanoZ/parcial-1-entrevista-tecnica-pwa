@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/faviconardo.png" type="image/x-icon">
+    <title>Laureano Zalazar, Cátedra PWA</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logardo.png" alt="logo getclima">
+    </header>
+    <section class="contenedor-principal">
+        <h1>Busca el clima en tu ciudad</h1>
+        <div class="contenedor">
+            <div class="contenedor-ciudad">
+                <label>Ingresa una ciudad</label>
+                <input id="inputValor" type="text">
+            </div>
+
+        </div>
+        <button id="buttonBuscar" class="button" type="submit">Buscar</button>
+        <div class="contenedor-parrafos">
+            <div>
+                <p>Temperatura Maxima</p>
+                <p class="dato" id="maxima"></p>
+            </div>
+            <div>
+                <p>Temperatura Minima</p>
+                <p class="dato" id="minima"></p>
+            </div>
+            <div>
+                <p>Humedad</p>
+                <p class="dato" id="humedad"></p> 
+            </div>   
+            <div>
+                <p>Sensacion Termica</p>
+                <p class="dato" id="termica"></p>
+            </div>
+            <div>
+                <p>Presion Atmosferica</p>
+                <p class="dato" id="atmosferica"></p>
+            </div>
+            <div>
+                <p>Velocidad del Tiempo</p>
+                <p class="dato" id="velocidad"></p>
+            </div>
+        </div>
+        <picture>
+            <figure>
+                <img id="img">
+            </figure>
+        </picture>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
